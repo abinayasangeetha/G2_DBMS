@@ -22,37 +22,53 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
-
+```
+ create table student(rollno int,name char(20),age int,address varchar(20),phoneno int);
+```
 ### OUTPUT:
+![Screenshot 2023-09-28 123821](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/0ef4f197-c7f6-457f-9c14-99ff64c8e0ea)
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+```
+alter table student add department char(30);
+```
 ### OUTPUT:
 
+![Screenshot 2023-09-28 123839](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/9da807a2-282a-48db-9eac-c2b8998d3403)
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
+ ```
+drop table student;
+```
 
 ### OUTPUT:
+![Screenshot 2023-09-28 124822](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/2d2245a9-b680-4a82-867f-3b37164ddd6f)
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+```
+truncate table student;
+```
 
 ### OUTPUT:
+![Screenshot 2023-09-28 124838](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/490d77b7-d304-47af-b312-72c8967d392a)
 
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+```
+alter table student rename to mystudent;
+```
 
 ### OUTPUT:
+![OP DBMS1](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/8e2a54e9-316c-4ad4-955a-db9ba7aec8c0)
+### RESULT:
+To create a student database and execute DDL queries using SQL is executed successfully.
